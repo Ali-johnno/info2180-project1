@@ -15,18 +15,54 @@ header{
     font-size: 18px;
 }
 
-/*apply hover to class*/
+header .container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header h1{
+    padding-right: 230px;
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: right;
+}
+
+li a:hover{ 
+    color: #5A67D8;
+}
+
 li a{ 
+    display: block;
+    padding: 10px;
     color: #6b7280;
+    text-decoration: none;
 }
 
 .learn-about h2{
     font-size: 24px;
     color: #48BB78;
 }
+.cards{
+    padding: 0px 25px 25px 25px;
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 30px;
+}
 
 .card{
-    box-shadow: 10px; /*didnt work yet*/
+    padding: 15px;
+    padding-bottom: 0;
+    box-shadow: 0 3px #888888; 
     border-style: solid;
     border-radius: 5px;
     border-color: #E2E8F0;
@@ -37,49 +73,106 @@ li a{
     font-size: 21px;
 }
 
-.testing-desciption{
-    padding:20px;
+.card img{
+    height: 50%;
+    width: 100%;
+}
+
+.testing{
     background-color: #4A5568;
+    padding: 80px;
+}
+
+.testing .container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.testing-desciption{
+    padding-left: 15px;
+    width:590px;
     color: white;
 }
 
 .cta{
-    padding: 20px;
-    background-color: #48BB78;
-    border-style: solid;
-    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    height: 45px;
 }
 
-.cta a{
+.cta .btn{
     color: white;
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none; 
 }
 
 .stories h2{
     color: #5A67D8;
 }
 
+article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.article-body{
+    padding: 20px;
+}
 .article-body h3{
     font-size: 18px;
 }
 
 .article-body a{
     color: #5A67D8;
+    text-decoration: none;
+}
+
+article img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
 }
 
 .newsletter{
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     background-color: #48BB78;
     color: white;
 }
 
-.container button{
+.newsletter p{
+    padding: 0px 230px 0px 260px;
+    text-align: left;
+}
+
+form button{
     background-color: #5A67D8;
     border-radius: 5px;
+    color: white;
+    height: 45px;
+    width: 150px;
+}
+
+form{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form div{
+    padding: 5px 5px 5px 0px;
 }
 
 .form-group input{
     border-radius: 5px;
+    height: 40px;
+    width: 310px;
 }
 
 footer{
