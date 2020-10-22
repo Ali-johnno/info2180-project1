@@ -11,12 +11,12 @@ body {
 }
 
 header{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-size: 18px;
 }
 
 header .container{
-    
+    text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,10 +48,32 @@ li a{
     text-decoration: none;
 }
 
+.overview-hero{
+    background-color: rgb(171, 205, 236);;
+}
+
+.overview-hero .container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.overview-hero img{
+    padding: 20px;
+    height:150px;
+    width: 200px;
+}
+
+.overview-hero-text{
+    width: 580px;
+}
+
 .learn-about h2{
     font-size: 24px;
     color: #48BB78;
 }
+
 .cards{
     padding: 0px 25px 25px 25px;
     display:grid;
@@ -60,7 +82,7 @@ li a{
 }
 
 .card{
-    padding: 15px;
+    padding: 0px 10px 10px 10px;
     padding-bottom: 0;
     box-shadow: 0 3px #888888; 
     border-style: solid;
@@ -151,6 +173,8 @@ article img{
 }
 
 form button{
+    border-style: none;
+    outline-style: none;
     background-color: #5A67D8;
     border-radius: 5px;
     color: white;
@@ -170,8 +194,10 @@ form div{
 }
 
 .form-group input{
+    border-style: none;
+    outline-style: none;
     border-radius: 5px;
-    height: 40px;
+    height: 43px;
     width: 310px;
 }
 
