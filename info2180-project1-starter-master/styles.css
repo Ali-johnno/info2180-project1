@@ -23,18 +23,17 @@ header .container{
 }
 
 header h1{
-    padding-right: 230px;
+    padding-right: 300px;
     float: left;
+    font-size: 18px;
 }
 
 ul{
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-li{
-    float: right;
 }
 
 li a:hover{ 
@@ -42,14 +41,13 @@ li a:hover{
 }
 
 li a{ 
-    display: block;
     padding: 10px;
     color: #6b7280;
     text-decoration: none;
 }
 
 .overview-hero{
-    background-color: rgb(171, 205, 236);;
+    background-color: #E2E8F0;
 }
 
 .overview-hero .container{
@@ -72,6 +70,7 @@ li a{
 .learn-about h2{
     font-size: 24px;
     color: #48BB78;
+    padding-left: 25px; 
 }
 
 .cards{
